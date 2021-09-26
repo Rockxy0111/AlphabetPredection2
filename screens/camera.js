@@ -32,7 +32,7 @@ getPermissionAsync = async () => {
   }
 };
 
- componentDidMount() {
+ componentDidMount=()=> {
   this.getPermissionAsync();
  }   
 
